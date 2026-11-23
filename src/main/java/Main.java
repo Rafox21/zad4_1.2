@@ -7,7 +7,7 @@ Kod bazowy programu Commit4_0:
 • Klasa Student reprezentuje pojedynczego studenta (Imię, Wiek).
 */
 
-mport java.io.IOException;
+import java.io.IOException;
 import java.util.Scanner;
 
 class Main {
@@ -36,7 +36,7 @@ class Main {
 
             System.out.print("Podaj wiek: ");
             int age = Integer.parseInt(scanner.nextLine());
- (np. 2004-05-12):
+ 
             s.addStudent(new Student(name, age));
             System.out.println("Dodano studenta do bazy.");
             break;
@@ -50,7 +50,7 @@ class Main {
             break;
 
           default:
-          .  System.out.println("Nieznana opcja.");
+            System.out.println("Nieznana opcja.");
         }
       } catch (IOException e) {
       } catch (NumberFormatException e) {
